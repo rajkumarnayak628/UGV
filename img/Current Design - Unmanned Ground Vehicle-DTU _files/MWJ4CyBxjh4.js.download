@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["Sp+nG"]); }
+
+__d("MessengerLightweightActionUtils",["MercuryAttachmentType"],(function a(b,c,d,e,f,g,h){"use strict";__p&&__p();function i(m){return!!(m&&m.attach_type===h.SHARE&&m.share&&m.share.target&&m.share.target.lwa_type)}function j(m){var n=m.attachments;return!!(n&&n.length===1&&i(n[0]))}function k(m){return m.attachments[0].share.title}function l(m){return m[0].share.title}f.exports={isLWAMessage:j,isLWAAttachment:i,getCollapsedLWAText:k,getLWASnippetText:l}}),null);
