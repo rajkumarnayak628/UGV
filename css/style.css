@@ -1526,6 +1526,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
+    margin-left: 470px;
 }
 
 #footer .footer-top .footer-contact p {
@@ -1567,3 +1568,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 13px;
   color: #ddd;
 }
+.middle {
+    margin-left: 350px;
+    width: 40%;
+
+    padding: 10px;
+}
+#col-lg-3 col-md-6 footer-contact
