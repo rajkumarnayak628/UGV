@@ -307,16 +307,6 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
-
-
-
-
-
-
-
-
-
-
 /* Nav Menu Arrows */
 .sf-arrows .sf-with-ul {
   padding-right: 30px;
@@ -848,6 +838,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-left: 60px;
   line-height: 24px;
   margin-bottom: 0;
+}
+#service .container{
+    float: left;
+    align-content: center;
+    
+    
 }
 
 /* Call To Action Section
@@ -1552,6 +1548,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
   transition: 0.3s;
   cursor: pointer;
+    float: left;
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"]:hover {
@@ -1571,7 +1568,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 .middle {
     margin-left: 350px;
     width: 40%;
-
     padding: 10px;
+    align-content: center;
+    float: none;
 }
-#col-lg-3 col-md-6 footer-contact
+
+#col-lg-3 col-md-6 footer-contact{
+    align-content: center;
+    text-align: center;
+}
